@@ -12,7 +12,9 @@ int main() {
     punteroA = &numeroA;
 
     //Muestro el contenido del puntero
-    printf("\nEl contenido del puntero es: %d\n", punteroA);
+    printf("\nContenido del puntero es: %d\n", punteroA);
+
+    printf("\nDireccion de memoria almacenada por el puntero es: %d\n", punteroA);
 
     printf("\nhola mundo");
 
