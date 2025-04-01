@@ -16,7 +16,9 @@ int main() {
 
     printf("\nDireccion de memoria almacenada por el puntero es: %d\n", punteroA);
 
-    printf("\nDireccion de memoria de la variable: %d", &numeroA);
+    printf("\nDireccion de memoria de la variable: %d\n", &numeroA);
+
+    printf("\nDireccion de memoria del puntero: %d\n", &punteroA);
 
     printf("\nhola mundo");
 
