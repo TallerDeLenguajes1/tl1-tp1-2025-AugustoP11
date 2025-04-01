@@ -18,9 +18,11 @@ int main() {
 
     printf("\nDireccion de memoria de la variable: %d\n", &numeroA);
 
-    printf("\nDireccion de memoria del puntero: %d\n", &punteroA);
+    printf("\nDireccion de memoria del puntero: %d\n\n", &punteroA);
 
-    printf("\nhola mundo");
+    printf("Tamanio de memoria utilizado por la variable: %d", sizeof(numeroA));
+
+    printf("\n\nhola mundo");
 
     getchar();
     getchar();
