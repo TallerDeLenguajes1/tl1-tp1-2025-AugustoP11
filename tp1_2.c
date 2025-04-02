@@ -5,6 +5,7 @@
 float numeroAlCuadrado(float numero);
 void numeroAlCuadradoVoid(float numero);
 void mostrarDireccionYContenido(float variable);
+void invertir(int a, int b);
 
 //funcion main
 int main() {
@@ -31,6 +32,16 @@ void numeroAlCuadradoVoid(float numero) {
 }
 
 void mostrarDireccionYContenido(float variable) {
-    printf("\nDireccion de la variable: %f", &variable);
+    printf("\nDireccion de la variable: %f\n", &variable);
     printf("\nContenido de la variable: %f\n", variable);
+}
+
+void invertir(int a, int b) {
+    int aux;
+    aux = b;
+    b = a;
+    a = aux;
+
+    printf("\nValor de la variable a: %d\n", a);
+    printf("\nValor de la variable b: %d", b);
 }
